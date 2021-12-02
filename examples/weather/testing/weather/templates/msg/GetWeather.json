@@ -1,0 +1,11 @@
+{
+  "interval": "小时",
+  "city": "广州",
+  "district": "",
+  "locations": [
+    {
+      "latitude": "31.231706",
+      "longitude": "121.472644"
+    }
+  ]
+}
