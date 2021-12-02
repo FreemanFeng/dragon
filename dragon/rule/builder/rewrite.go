@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func isDefined(key string, m map[string][]string) bool {

@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ParseNode(r TaskRequest, start int, content [][]byte, nodes map[string]*NodeType) (int, int, string) {

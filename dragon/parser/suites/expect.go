@@ -16,7 +16,7 @@ package suites
 import (
 	"bytes"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ParseExpect(c []byte) (int, string, []byte, []OpType) {

@@ -17,9 +17,9 @@ package handler
 import (
 	"strconv"
 
-	"github.com/nuxim/dragon/dragon/rule"
+	"github.com/FreemanFeng/dragon/dragon/rule"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func OnError(id int, t *Testing, p *VarData, params map[string]string, m, c, r map[string][]byte) int {

@@ -20,7 +20,7 @@ import (
 	"plugin"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func compile(r TaskRequest, p *PluginType) {

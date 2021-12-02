@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/util"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/util"
 )
 
 func buildParams(mid, key string, vp map[string]interface{}, t *Testing, op *OpType) []interface{} {

@@ -20,7 +20,7 @@ import (
 	"path"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func load(r TaskRequest, t *Testing) {

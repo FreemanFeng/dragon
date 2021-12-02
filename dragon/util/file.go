@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func CreateFile(name string, data []byte, paths ...string) string {

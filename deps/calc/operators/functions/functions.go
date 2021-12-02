@@ -1,7 +1,7 @@
 package functions
 
 import (
-	"github.com/nuxim/dragon/deps/calc/operators"
+	"github.com/FreemanFeng/dragon/deps/calc/operators"
 )
 
 var Names = map[string]bool{}

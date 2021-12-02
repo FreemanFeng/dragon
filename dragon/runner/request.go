@@ -17,9 +17,9 @@ package runner
 import (
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/proto/http"
-	"github.com/nuxim/dragon/dragon/rule"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/proto/http"
+	"github.com/FreemanFeng/dragon/dragon/rule"
 )
 
 func Request(id int, r TaskRequest, t *Testing, ct *CaseType, pc *ControlType, ft *FlowType,

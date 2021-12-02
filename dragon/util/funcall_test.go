@@ -17,7 +17,7 @@ package util
 import (
 	"testing"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func TestCall(t *testing.T) {

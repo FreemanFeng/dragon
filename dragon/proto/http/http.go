@@ -17,9 +17,9 @@ package http
 import (
 	"strings"
 
-	"github.com/nuxim/dragon/dragon/proto/http/handler"
+	"github.com/FreemanFeng/dragon/dragon/proto/http/handler"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func Run() {

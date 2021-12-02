@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ConvertTimeDigit(date time.Time, days int) string {

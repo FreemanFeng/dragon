@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/rule"
-	"github.com/nuxim/dragon/dragon/util"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/rule"
+	"github.com/FreemanFeng/dragon/dragon/util"
 )
 
 func OnSending(id int, t *Testing, p *VarData, params map[string]string, m, c, r map[string][]byte) int {

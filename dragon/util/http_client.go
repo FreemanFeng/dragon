@@ -23,7 +23,7 @@ import (
 	"regexp"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ConvertUrl(reqUrl string, headers http.Header) string {

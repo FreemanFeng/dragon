@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"strconv"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 
 	"github.com/google/uuid"
 )

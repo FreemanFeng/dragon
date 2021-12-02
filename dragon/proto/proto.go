@@ -15,7 +15,7 @@
 package proto
 
 import (
-	"github.com/nuxim/dragon/dragon/proto/http"
+	"github.com/FreemanFeng/dragon/dragon/proto/http"
 )
 
 func Run() {

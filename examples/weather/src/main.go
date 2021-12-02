@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nuxim/dragon/examples/weather/src/control"
+	"github.com/FreemanFeng/dragon/examples/weather/src/control"
 )
 
 func Usage() {

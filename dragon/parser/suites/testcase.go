@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nuxim/dragon/dragon/util"
+	"github.com/FreemanFeng/dragon/dragon/util"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func parseCases(r TaskRequest, start int, content [][]byte, nodes map[string]*GroupType) (int, int, string) {

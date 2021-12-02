@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nuxim/dragon/deps/calc/constants"
-	"github.com/nuxim/dragon/deps/calc/operators"
-	"github.com/nuxim/dragon/deps/calc/operators/functions"
+	"github.com/FreemanFeng/dragon/deps/calc/constants"
+	"github.com/FreemanFeng/dragon/deps/calc/operators"
+	"github.com/FreemanFeng/dragon/deps/calc/operators/functions"
 )
 
 var resHistory = []float64{}

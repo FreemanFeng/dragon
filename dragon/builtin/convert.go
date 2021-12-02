@@ -17,8 +17,8 @@ package builtin
 import (
 	"strconv"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/util"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/util"
 )
 
 func getFormatParams(params ...string) (int, string, int64) {

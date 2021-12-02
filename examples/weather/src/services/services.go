@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	. "github.com/nuxim/dragon/examples/weather/src/common"
+	. "github.com/FreemanFeng/dragon/examples/weather/src/common"
 )
 
 type GlobalConfig struct {

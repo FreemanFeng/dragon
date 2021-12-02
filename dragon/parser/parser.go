@@ -17,11 +17,11 @@ package parser
 import (
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/parser/common"
-	"github.com/nuxim/dragon/dragon/parser/global"
-	"github.com/nuxim/dragon/dragon/parser/suites"
-	"github.com/nuxim/dragon/dragon/parser/templates"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/parser/common"
+	"github.com/FreemanFeng/dragon/dragon/parser/global"
+	"github.com/FreemanFeng/dragon/dragon/parser/suites"
+	"github.com/FreemanFeng/dragon/dragon/parser/templates"
 )
 
 func Run() {

@@ -17,7 +17,7 @@ package builtin
 import (
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func MD5(params ...string) string {

@@ -17,7 +17,7 @@ package builtin
 import (
 	"testing"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func TestRandomString(t *testing.T) {

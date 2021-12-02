@@ -3,7 +3,15 @@
 *.exe~
 *.dll
 *.so
+*.iml
 *.dylib
+._*
+
+.idea
+.build
+.travis.yml
+dragon/dragon
+bin/
 
 # Test binary, built with `go test -c`
 *.test
@@ -12,4 +20,8 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+dragon/db/
+pkg/
+__pycache__/
+target/

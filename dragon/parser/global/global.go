@@ -19,9 +19,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/parser/suites"
-	"github.com/nuxim/dragon/dragon/util"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/parser/suites"
+	"github.com/FreemanFeng/dragon/dragon/util"
 )
 
 func Parse(ch chan TaskRequest) {

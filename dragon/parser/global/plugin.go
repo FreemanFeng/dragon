@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuxim/dragon/dragon/util"
+	"github.com/FreemanFeng/dragon/dragon/util"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ParsePlugin(r TaskRequest, start int, content [][]byte, nodes map[string]*PluginType) (int, int, string) {

@@ -1,36 +1,56 @@
 # dragon
 
 #### Description
-简洁高效规则驱动自动化测试框架Dragon
+Rules Driven Simplified and Efficient Automation Test Framework - Dragon
 
 #### Software Architecture
-Software architecture description
+
 
 #### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+go version: 1.17+
+> Linux configure GO proxy
+* export GOPROXY=https://goproxy.io
+* export GO111MODULE=on
+> Windows configure GO proxy
+* go env -w GOPROXY="https://goproxy.io"
+* go env -w GO111MODULE="on"
+> Installation Steps
+1.  git clone git@gitee.com:freemanfeng/dragon.git
+2.  cd dragon
+3.  go mod vendor
+4.  cd vendor
+5.  ln -sf ../goplugin
+6.  ln -sf ../testing/demo/plugins/src/demo
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone git@gitee.com:freemanfeng/dragon.git
+2.  cd dragon/dragon
+3.  go build
+4.  ./dragon
 
-#### Contribution
+#### Demo
+##### Open two Linux Terminals，buildup Demo and Weather services
+> Demo service
+* cd dragon/testing/demo/plugins/src/demo
+* go build
+* ./demo
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+> Weather service
+* cd dragon/examples/weather/src
+* go build
+* mv src weather
+* ./weather
+##### Open two Windows cmd，buildup Demo and Weather services
+> Demo service
+* cd dragon/testing/demo/plugins/src/demo
+* go build
+* demo.exe
 
+> Weather service
+* cd dragon/examples/weather/src
+* go build
+* mv src.exe weather.exe
+* weather.exe
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+at last, open browser and visit http://localhost:9899/test/demo?c=tc000020

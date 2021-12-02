@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/nuxim/dragon/dragon/common"
-	"github.com/nuxim/dragon/dragon/control"
+	. "github.com/FreemanFeng/dragon/dragon/common"
+	"github.com/FreemanFeng/dragon/dragon/control"
 )
 
 func Usage() {

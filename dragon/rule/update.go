@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func UpdateVar(id, vt int, proto string, r TaskRequest, t *Testing, ct *CaseType, pc *ControlType, ft *FlowType,

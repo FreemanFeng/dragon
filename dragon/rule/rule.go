@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"strings"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func ConditionSatisfied(ops []OpType, vt map[string]*VarType, vd *VarData) bool {

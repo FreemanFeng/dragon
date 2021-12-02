@@ -14,7 +14,7 @@
 
 package builtin
 
-import "github.com/nuxim/dragon/dragon/common"
+import "github.com/FreemanFeng/dragon/dragon/common"
 
 func LOG(params ...interface{}) {
 	common.Log(params...)

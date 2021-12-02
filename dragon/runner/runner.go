@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuxim/dragon/dragon/rule"
+	"github.com/FreemanFeng/dragon/dragon/rule"
 
-	"github.com/nuxim/dragon/dragon/util"
+	"github.com/FreemanFeng/dragon/dragon/util"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func Run() {

@@ -15,9 +15,9 @@
 package handler
 
 import (
-	"github.com/nuxim/dragon/dragon/rule"
+	"github.com/FreemanFeng/dragon/dragon/rule"
 
-	. "github.com/nuxim/dragon/dragon/common"
+	. "github.com/FreemanFeng/dragon/dragon/common"
 )
 
 func OnReadySending(id int, t *Testing, p *VarData, params map[string]string, m, c, r map[string][]byte) int {
