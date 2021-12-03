@@ -1,0 +1,6 @@
+twisted
+Pillow
+numpy
+matplotlib
+opencv-python
+opencv-contrib-python
